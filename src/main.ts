@@ -2,7 +2,7 @@ import './style.css';
 import { parseHtml, sessionToICAL } from './parse';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
-
+<div>
   <div padding: 2rem; text-align: center;">
   <h2>Engage 2024 Schedule To iCal</h2>
   <div class="card">
